@@ -12,9 +12,6 @@ let adj = ["rose", "petit", "grand", "gentil", "en colère", "géant", "méchant
 let place = ["dans le jardin", "partout dans le monde", "dehors", "à Fourmies", "à la maison", "en vacances", "dans la foret"];
 let verb = ["joue", "se promène", "travaille", "mange", "crache", "parle a"];
 
-// user name
-
-
 // create story
 button.addEventListener("click", function (){
     userName = document.getElementById("userName").value;
