@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Langar', cursive;
 }
 
 body {
@@ -13,23 +16,22 @@ body {
 }
 
 header {
+    font-size: 4rem;
+}
+
+#user {
     font-size: 2rem;
 }
 
-section {
-    font-size: 1.5rem;
-}
-
-header, section {
-    width: 80%;
-    text-align: center;
-}
-
 #story {
+    width: 40%;
     border: 1px solid gray;
-    min-height: 2rem;
+    min-height: 3rem;
+    font-size: 2rem;
 }
 
-header, section, #story {
-    margin: 5rem auto;
+header, #user, #story {
+    width: 60%;
+    margin: 3rem auto;
+    text-align: center;
 }
