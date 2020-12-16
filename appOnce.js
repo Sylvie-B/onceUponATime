@@ -5,9 +5,9 @@ let button = document.getElementById("storytelling");   // get button
 let story = document.getElementById("story");   // get story
 
 // 5 tableaux
-let name = ["Sylvie", "le dragon", "le chat", "la tortue violette", "Godzilla", "la princesse", "la grenouille", "le feu"];
+let name = ["Sylvie", "le dragon", "le chat", "la tortue", "Godzilla", "la princesse", "la grenouille", "le feu"];
 let thing = ["en carosse", "un gâteau", "son chapeau pointu", "la citrouille", "en balai"];
-let temp = ["tiéde", "brulant", "glacé", "chaud"];
+let temp = ["tiéde", "brulant", "glacé", "chaude", "violette"];
 let adj = ["rose", "petit", "grand", "gentil", "en colère", "géant", "méchant", "timide"];
 let place = ["dans le jardin", "partout dans le monde", "dehors", "à Fourmies", "à la maison", "en vacances", "dans la foret"];
 let verb = ["joue", "se promène", "travaille", "mange", "crache", "parle a"];
